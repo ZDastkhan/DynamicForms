@@ -4,9 +4,9 @@ namespace DynamicForms.Core
 {
     public class OptionControl
     {
-        public string Name { get; set; }
         public string Id { get; set; }
         public int OrderIndex { get; set; }
+        public string FullName { get; set; }
         public string ShortName { get; set; }
         public string Tooltip { get; set; }
         public string SelectedIndex { get; set; }
@@ -22,7 +22,7 @@ namespace DynamicForms.Core
 
         public override string ToString()
         {
-            return Name;
+            return FullName;
         }
     }
 }

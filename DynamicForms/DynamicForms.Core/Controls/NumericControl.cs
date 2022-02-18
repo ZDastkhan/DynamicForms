@@ -2,7 +2,7 @@
 
 namespace DynamicForms.Core
 {
-    public class NumericValueControl
+    public class NumericControl
     {
         public string Id { get; set; }
         public int OrderIndex { get; set; }
@@ -18,9 +18,9 @@ namespace DynamicForms.Core
         //public ValidationLimitModel MinLimit { get; set; }
         //public ValidationLimitModel MaxLimit { get; set; }
 
-        public NumericValueControl()
+        public NumericControl()
         {
-            Units = new List<UnitDefinition>();            
+            //Units = new List<UnitDefinition>();            
             //MinLimit = new ValidationLimitModel();
             //MaxLimit = new ValidationLimitModel();
         }

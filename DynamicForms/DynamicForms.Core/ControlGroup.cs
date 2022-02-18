@@ -10,12 +10,12 @@ namespace DynamicForms.Core
         public string DisplayName { get; set; }
         public bool IsVisible { get; set; }
         public bool IsResult { get; set; }
-        public virtual List<NumericValueControl> ValueControls { get; set; }
+        public virtual List<NumericControl> ValueControls { get; set; }
         public virtual List<OptionControl> OptionControls { get; set; }
 
         public ControlGroup()
         {
-            ValueControls = new List<NumericValueControl>();
+            ValueControls = new List<NumericControl>();
             OptionControls = new List<OptionControl>();
             IsVisible = true;
         }
