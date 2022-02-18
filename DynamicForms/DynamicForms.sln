@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicForms.Core", "DynamicForms.Core\DynamicForms.Core.csproj", "{D717756B-FC62-462A-8275-29255123A431}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicForms.Core", "DynamicForms.Core\DynamicForms.Core.csproj", "{D717756B-FC62-462A-8275-29255123A431}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicForms.Factory", "DynamicForms.Factory\DynamicForms.Factory.csproj", "{CFE4158F-E358-4C16-A450-FA1A031F9AF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicForms.Factory", "DynamicForms.Factory\DynamicForms.Factory.csproj", "{CFE4158F-E358-4C16-A450-FA1A031F9AF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicForms.AspMvcWeb", "DynamicForms.AspMvcWeb\DynamicForms.AspMvcWeb.csproj", "{6BF0201F-3B57-489E-9AE0-0F5F7563700B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{CFE4158F-E358-4C16-A450-FA1A031F9AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFE4158F-E358-4C16-A450-FA1A031F9AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFE4158F-E358-4C16-A450-FA1A031F9AF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BF0201F-3B57-489E-9AE0-0F5F7563700B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BF0201F-3B57-489E-9AE0-0F5F7563700B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BF0201F-3B57-489E-9AE0-0F5F7563700B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BF0201F-3B57-489E-9AE0-0F5F7563700B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
